@@ -1,0 +1,82 @@
+section{
+    margin-top: 0px; 
+   margin-bottom: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+}
+
+
+body{
+font-family: montserrat;
+font-weight: 400;
+background-color:linear-gradient(-45deg,#3ca84cad, #18d0dd);
+}
+.contact{
+position: relative;
+min-height: 100vh;
+padding: 20px 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: linear-gradient(-45deg,#3ca84cad, #18d0dd);;
+
+}
+.contact .content{
+max-width: 800px;
+text-align: center;
+}
+.contact .content h2{
+font-size: 36px;
+font-weight: 500;
+color: black;
+}
+.contact .content p{
+font-weight: 300;
+color: black;
+}
+.container{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.container .contactinfo{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.container .contactinfo .box{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+.container .contactinfo .box .icon{
+min-width: 60px;
+height: 60px;
+background: rgb(222, 215, 215);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+}
+.container .contactinfo .box .text{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: black;
+flex-direction: column;
+font-weight: 300;
+}
+.container .contactinfo .box .text h3{
+font-weight: 500;
+color: rgba(16, 16, 114, 0.878); 
+}
+.contact-in iframe {
+width: 500px;
+height: 300px;
+
+
+}
